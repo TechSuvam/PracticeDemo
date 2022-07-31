@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace PracticeDemo
+﻿namespace PracticeDemo
 {
     internal class Program
     {
@@ -9,10 +7,7 @@ namespace PracticeDemo
          
             var singleton = Singleton.SingletonProp.GetType();
             var staticType= StaticClass.GetType();
-
         }
-
-
     }
 
     public sealed class Singleton
@@ -48,6 +43,4 @@ namespace PracticeDemo
             return "Static Class";
         }
     }
-
-    
 }
